@@ -1,3 +1,37 @@
+"""
+
+"The Mastermind Game"
+
+In This Game we used...
+1.if-else statements
+2.while loop
+3.for loop
+
+we used random function
+to guess a number between 1000 to 10000
+so system can guess 4 digit number.
+
+->How It works?
+When System guess any number it its memory
+It will asks to enter a number.
+
+If we entered the right number that system guess
+It will show a massege shows our tries and wishings.
+
+Otherwise It will askes next time untill right maches.
+"We must enter right number to simmiler that number."
+
+It will check Individually all the 4 integers.
+
+And after the all right right choices It will greets us 
+and shows the number of tries.
+
+"""
+
+
+# Code:
+
+
 import random
 
 num = random.randrange(1000,10000)
